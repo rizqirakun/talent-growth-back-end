@@ -43,7 +43,7 @@ app.use(compression()) // Compress all routes
 
 app.use(cookieParser())
 
-app.use(express.raw())
+app.use(express.json())
 
 app.use('/', authRoute)
 
