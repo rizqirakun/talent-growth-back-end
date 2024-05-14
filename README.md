@@ -12,4 +12,5 @@ The project includes Node code created using Express.js 4 and MongoDB as databas
 ### How to setup?
 
 -   `npm init`
+-   `copy .env.example to .env for setup environment`
 -   `npm run start`
